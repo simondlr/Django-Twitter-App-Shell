@@ -1,0 +1,12 @@
+{% extends 'page.html' %}
+
+{% block content %}
+{% if request.session.access_token %}
+Welcome! Now do stuff!<br />
+<a href="/logout">Log out</a>
+{% else %}
+<a href="{{a_url}}">Authenticate with Twitter</a>
+
+{% endif %}
+
+{% endblock %}
