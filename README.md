@@ -1,10 +1,10 @@
 ##Django Twitter App Shell (or dtas)
 
-There has been plenty of times I just wanted to fire up a quick Twitter app to scrape a search, find out some information or test some new idea. Each time however I had to reengineer a previous version of a Twitter app, and that usually ended up with me losing motivation. I'm recently into Django (due to the ease-of-use of Heroku), and decided to create a Twitter App Shell.
+There has been plenty of times I just wanted to fire up a quick Twitter app to scrape a search, find out some information or test some new idea. Each time however I had to reengineer a previous version of a Twitter app, and that usually ended up with me losing motivation. I'm recently into Django (due to the ease-of-use of Heroku), and decided to create a Twitter App Shell for Django.
 
 ##What?
 
-So basically, all it does, is it allows you quickly authenticate so you can quickly head into using whatever part of API you want to use. Thus whenever you quickly want to run a script, you don't have to first go through the processes of setting up Twitter's authentication process.
+So basically, it allows you to focus on setting up a quick Twitter app instead of having to work on reinventing the wheel in terms of setting up the OAuth authentication flows.
 
 ##How to use it
 
